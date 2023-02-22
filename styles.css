@@ -1,0 +1,74 @@
+html {
+    margin: 0;
+    display: ;
+}
+
+.assets-col {
+    background-color: #fafbfc;
+    /* width: 31%; */
+    width: 220px;
+    height: 255px;
+    float: left;
+    margin: 0% 1% 1% 1%;
+    border-radius: 20px;
+}
+
+.assets-col:hover {
+    box-shadow: 0px 4px 5px #cacaca;
+}
+
+.active-asset {
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #301c57;
+}
+
+.mini-container {
+    padding: 0 20px;
+    
+}
+
+.card-heading {
+    font-weight: 600;
+}
+
+#stats {
+    float: right;
+    font-size: 11px;
+}
+
+.stats-inactive {
+    color: #a09faa;
+}
+
+.description-inactive {
+    color: #868593;
+}
+
+
+.description {
+    font-size: 11px;
+    margin-top: -14px;
+    margin-bottom: 5px;
+}
+
+.assets-download-button {
+    float: right;
+    background-color: #4b0ace;
+    border-radius: 8px;
+    height: 26px;
+    width: 76px;
+    border-color: #ffa71000;
+    /* margin-top: 10%; */
+    padding-bottom: 25px;
+}
+
+.asset-dl-text {
+    color: #ffffff;
+    font-size: 10px;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+}
+
+
+
