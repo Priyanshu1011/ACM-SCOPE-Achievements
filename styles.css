@@ -1,3 +1,40 @@
+#title{
+background-color: brown;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Anton', sans-serif;
+}
+
+
+.head-section{
+/* text-align: center;
+padding : 15% 30% 20%; */
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+min-height: 84vh;
+font-family: 'Anton', sans-serif;
+font-size: 10px;
+}
+
+.container-fluid{
+padding: 4% 10%;
+}
+
+.btn{
+font-family: serif;
+}
+
+
+
+
+
+
 html {
     margin: 0;
     display: ;
