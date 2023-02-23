@@ -113,9 +113,9 @@ html {
 }
 
 .close-button {
-    position: relative;
-    top: -22%;
-    right: 1%;
+    position: absolute;
+    top: 4%;
+    right: 2%;
     float: right;
     border-radius: 50%;
 }
@@ -125,6 +125,7 @@ html {
 }
 
 .ach-col {
+    position: relative;
     background-color: #64c0fd;
     border: 2px solid #9aff93;
     /* padding: 0 20px; */
@@ -158,18 +159,22 @@ html {
 }
 
 .date {
-    /* position: relative; */
+    position: absolute;
+    /* align-items: center; */
     font-weight: 500;
     font-size: 16px;
-    text-align: center;
-    padding-top: 15%;
+    /* text-align: center; */
+    left: 45%;
+    bottom: 20%;
+    /* padding-top: 15%; */
 }
 
 .see-more-button {
-    /* position: relative;
-    left: 30%; */
+    position: absolute;
+    /* left: 30%; */
+    bottom: 7%;
     margin-left: 30%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     background-color: #4b0ace;
     border-radius: 8px;
     height: 26px;
