@@ -25,11 +25,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:80vh;
+    height: 80vh;
     width: 80vh;
     flex-direction: column;
     border-radius: 100%;
     border:3px solid white;
+}
+
+.h{
+    word-wrap: break-word;
 }
 
 .btn-grp{
@@ -131,3 +135,11 @@ html {
 
 
 
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+    .head{
+        height: 50vh;
+        width: 50vh;
+    }
+}
