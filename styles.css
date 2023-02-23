@@ -61,7 +61,9 @@ html {
 
 .ach-col:hover {
     box-shadow: 1px 2px 5px #46ff2eb0;
-    transition: transform 0.2s;
+    transition: transform 0.4s;
+    background-color: #07ca00;
+    color: #26095f;
     transform: scale(1.02);
 }
 
