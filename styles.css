@@ -20,7 +20,8 @@ body {
 .head{
     font-weight: bold;
     color: white;
-    font-family: "Inter";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +30,11 @@ body {
     flex-direction: column;
     border-radius: 100%;
     border:3px solid white;
+}
+
+.btn-grp{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .main{
