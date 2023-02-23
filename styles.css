@@ -43,7 +43,22 @@ body {
 
 html {
     margin: 0;
+    padding: 2% 4%;
     display: ;
+}
+
+.pg-title {
+    color: #ffffff;
+    text-align: center;
+}
+
+.pg-title:hover {
+    transition: transform 0.4s;
+    transform: scale(1.02);
+}
+
+.ach-row {
+    
 }
 
 .ach-col {
@@ -55,7 +70,7 @@ html {
     width: 220px;
     height: 255px;
     float: left;
-    margin: 2% 0.5% 2% 0.5%;
+    margin: 2% 1% 2% 1%;
     border-radius: 20px;
 }
 
