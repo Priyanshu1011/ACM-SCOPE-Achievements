@@ -70,6 +70,56 @@ html {
     padding: 3% 8%;
 }
 
+.pop-up {
+    width: 60%;
+    height: 70%;
+    background-color: #38c116;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* right: 50%; */
+    bottom: -50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    text-align: center;
+    padding: 3% 0.5% 1%;
+    color: #fff;
+    transition: transform 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 1;
+}
+
+.visible {
+    /* visibility: visible; */
+    display: block;
+}
+
+.hidden {
+    /* visibility: hidden; */
+    display: none;
+}
+
+.content {
+    visibility: visible;
+}
+
+.content-1, content-2, content-3 {
+    /* visibility: hidden; */
+}
+
+.close-button {
+    position: relative;
+    top: -22%;
+    right: 1%;
+    float: right;
+    border-radius: 50%;
+}
+
 .ach-row {
 
 }
