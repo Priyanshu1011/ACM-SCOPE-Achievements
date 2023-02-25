@@ -68,6 +68,7 @@ html {
 
 .ach-SCOPE {
     padding: 3% 8%;
+    min-height:1900px;
 }
 
 .pop-up {
@@ -84,6 +85,7 @@ html {
     visibility: hidden;
     text-align: center;
     padding: 3% 0.5% 1%;
+    border: 2px solid black;
     color: #fff;
     transition: transform 0.4s;
 }
@@ -126,7 +128,7 @@ html {
 
 .ach-col {
     position: relative;
-    background-color: #64c0fd;
+    background-color: #64e3fd;
     border: 2px solid #9aff93;
     /* padding: 0 20px; */
     padding: 2% 1%;
@@ -141,9 +143,9 @@ html {
 .ach-col:hover {
     box-shadow: 1px 2px 5px #46ff2eb0;
     transition: transform 0.2s;
-    background-color: #07ca00;
-    color: #26095f;
-    transform: scale(1.05);
+    background-color: darkblue;
+    color: white;
+    transform: scale(1.15);
 }
 
 .active-ach {
@@ -173,15 +175,21 @@ html {
     position: absolute;
     /* left: 30%; */
     bottom: 7%;
-    margin-left: 30%;
+    margin-left: 20%;
     /* margin-top: 10%; */
     background-color: #4b0ace;
     border-radius: 8px;
     height: 26px;
-    width: 76px;
+    width: 90px;
     border-color: #ffa71000;
     /* margin-top: 10%; */
     padding-bottom: 25px;
+}
+
+.see-more-button:hover{
+    background-color: #ffa710;
+    transition: transform 0.2s;
+    transform: scale(1.05);
 }
 
 .see-more-text {
