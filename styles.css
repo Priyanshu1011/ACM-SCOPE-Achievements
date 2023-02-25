@@ -42,7 +42,7 @@ body {
 }
 
 .main{
-    min-height: 500vh;
+    min-height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -68,8 +68,14 @@ html {
 
 .ach-SCOPE {
     padding: 3% 8%;
-    min-height:3600px;
+    min-height:3100px;
 }
+
+.ach-SCOPE-1 {
+    padding: 3% 8%;
+    min-height:1600px;
+}
+
 
 .pop-up {
     width: 60%;
@@ -295,9 +301,14 @@ footer ul.footer-container {
 
 .footer-link{
     padding: 1%;
+    font-family: roboto;
+    font-weight: 500;
 }
+
 .footer-links .comm {
     padding: 0.1em;
+    font-family: roboto;
+    font-weight: 500;
 }
 
 .outro {
@@ -306,6 +317,28 @@ footer ul.footer-container {
     font-size: 1rem;
     font-weight: 300;
     padding-top: 0.5em;
+    font-family: roboto;
+    font-weight: 500;
+}
+
+#insta{
+    width: auto;
+    height: 3.4em;
+}
+
+#fb{
+    width: auto;
+    height: 3.4em;
+}
+
+#twitter{
+    width: auto;
+    height: 3.4em;
+}
+
+#linkedin{
+    width: auto;
+    height: 3.4em;
 }
 
 @media screen and (max-aspect-ratio: 1/1) {
