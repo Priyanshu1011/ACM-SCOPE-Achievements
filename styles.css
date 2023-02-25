@@ -34,9 +34,11 @@ body {
 
 .h{
     word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
-.btn-grp{
+.btn{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
