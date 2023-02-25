@@ -68,6 +68,7 @@ html {
 
 .ach-SCOPE {
     padding: 3% 8%;
+    min-height:1900px;
 }
 
 .pop-up {
@@ -84,6 +85,7 @@ html {
     visibility: hidden;
     text-align: center;
     padding: 3% 0.5% 1%;
+    border: 2px solid black;
     color: #fff;
     transition: transform 0.4s;
 }
@@ -126,7 +128,7 @@ html {
 
 .ach-col {
     position: relative;
-    background-color: #64c0fd;
+    background-color: #64e3fd;
     border: 2px solid #9aff93;
     /* padding: 0 20px; */
     padding: 2% 1%;
@@ -141,9 +143,9 @@ html {
 .ach-col:hover {
     box-shadow: 1px 2px 5px #46ff2eb0;
     transition: transform 0.2s;
-    background-color: #07ca00;
-    color: #26095f;
-    transform: scale(1.05);
+    background-color: darkblue;
+    color: white;
+    transform: scale(1.15);
 }
 
 .active-ach {
@@ -173,15 +175,21 @@ html {
     position: absolute;
     /* left: 30%; */
     bottom: 7%;
-    margin-left: 30%;
+    margin-left: 20%;
     /* margin-top: 10%; */
     background-color: #4b0ace;
     border-radius: 8px;
     height: 26px;
-    width: 76px;
+    width: 90px;
     border-color: #ffa71000;
     /* margin-top: 10%; */
     padding-bottom: 25px;
+}
+
+.see-more-button:hover{
+    background-color: #ffa710;
+    transition: transform 0.2s;
+    transform: scale(1.05);
 }
 
 .see-more-text {
@@ -193,11 +201,178 @@ html {
 
 
 
-@media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
+/*Footer*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../assets/Fonts/Roboto-Regular.ttf') format('tff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+footer {
+    background-color: #272121;
+    color: white;
+    font-family: 'roboto' !important;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul.footer-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-body-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-socials-wrapper {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-banner img {
+    padding: 1em;
+}
+
+.footer-banner {
+    font-family: 'roboto';
+    font-weight: 900;
+    display: flex;
+}
+
+.footer-banner #vit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.footer-socials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-socials li {
+    display: inline-block;
+    padding: 1.3em;
+}
+
+.footer-links {
+    display: inline-block;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.4rem;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-link{
+    padding: 1%;
+}
+.footer-links .comm {
+    padding: 0.1em;
+}
+
+.outro {
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 0.5em;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    #about {
+        background-size: 0;
+    }
+
+    .footer-banner img {
+        padding: 0em;
+        padding-left: 0.5em;
+    }
+
+    .footer-banner #hc {
+        display: inline-block;
+        padding: 0.35em;
+        margin-bottom: 0.4em;
+        font-size: 34px;
+    }
+
+    .footer-socials li {
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+    .footer-links {
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+
+    .footer-socials-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: none;
+    }
+
+    footer>ul.container {
+        flex-direction: column-reverse;
+    }
+
+    .footer-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer>ul.container>.footer-socials-wrapper {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .head{
-        height: 50vh;
-        width: 50vh;
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .ach-SCOPE {
+        padding: 3% 8%;
+        min-height: 470em;
     }
 }
